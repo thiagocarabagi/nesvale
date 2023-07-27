@@ -15,22 +15,17 @@ body{
 .container{
     max-width: 1100px;
     margin: 0 auto;
-    
 }
 
 header>nav{
     background-color: #0033A0;
     width: 100%;
-    /* position: fixed; */
-    /* top: 0; */
-    /* z-index: 1; */
 }
 
 header>nav>#logo>a>img{
     position: relative;
     top: 2em;
     width: 10%;
-
 }
 
 header>nav>.container>button{
@@ -247,7 +242,6 @@ section>#trainee>a>img{
 
 .container-principal>.recent-news>div>h2{
     font-size: 34px;
-    
     line-height: 40px;
 }
 
@@ -302,7 +296,6 @@ section>#trainee>a>img{
     box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.658);
     margin: 0 0.5em 0 0;
 }
-
 
 #brands>#recent-brands>.first{
     position: relative;
@@ -414,7 +407,6 @@ footer>div{
     width: 100%;
     padding: 10px 120px;
     background: #0033A0;
-    
 }
 
 footer>div>.text-nesvale{
@@ -458,7 +450,6 @@ footer>div>nav>div>.minr>li>a:hover{
     border-bottom: 2px solid #FFAA00;
 }
 
-
 footer>div>nav>div>ul>.size{
     font-size: 16px;
     color: white;
@@ -470,7 +461,6 @@ footer>div>nav>div>ul>li{
     padding: 10px 0;
     font-size: 14px;
 }
-
 
 footer>div>.redes-sociais{
     margin: 0 auto;
@@ -504,7 +494,6 @@ footer>div>#reserved>ul>li{
     padding: 2em 0;
     color: white;
     font-size: 14px;
-    
 }
 
 footer>div>#reserved>ul>li>a{
@@ -748,7 +737,6 @@ footer>div>#reserved>ul>li>a:hover{
     footer>div>#reserved>ul>li:nth-child(2n){
         display: none;
     }
-
 }
 
 
