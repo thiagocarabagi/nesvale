@@ -348,8 +348,8 @@ section>#trainee>a>img{
 
 
 /* INICIO NOTÍCIAS NESVALE */
-.news-nestle{
-    background: url(/nesvale/img/mapa-mundial.jpg);
+.news-nesvale{
+    background: url(../img/mapa-mundial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -357,19 +357,19 @@ section>#trainee>a>img{
     margin: 4em 0;
 }
 
-.news-nestle>.nestle{
+.news-nesvale>.nesvale{
     display: inline-block;
     padding: 0 8em;
     color: white;
     font-weight: normal;
 }
 
-.news-nestle>.nestle>h2{
+.news-nesvale>.nesvale>h2{
     font-weight: normal;
     font-size: 26px;
 }
 
-.news-nestle>.nestle>p{
+.news-nesvale>.nesvale>p{
     width: 250px;
     margin: 20px 0 30px 0;
     font-weight: bold;
@@ -377,7 +377,7 @@ section>#trainee>a>img{
     line-height: 25px;
 }
 
-.news-nestle>.nestle>a{
+.news-nesvale>.nesvale>a{
     color: #427CBF;
     text-decoration: none;
     border: 1px solid white;
@@ -386,20 +386,20 @@ section>#trainee>a>img{
     background: white;
 }
 
-.news-nestle>.nestle>a:hover{
+.news-nesvale>.nesvale>a:hover{
     background: #CCE5F1;
 }
 
-.news-nestle>.contact{
+.news-nesvale>.contact{
     margin-left: 200px;
 }
 
-.news-nestle>.contact>#fale-conosco{
+.news-nesvale>.contact>#fale-conosco{
     background: #007CBA;
     color: white;
 }
 
-.news-nestle>.contact>#fale-conosco:hover{
+.news-nesvale>.contact>#fale-conosco:hover{
     background-color: #006A9E;
 }
 /* FIM NOTÍCIAS NESVALE */
