@@ -1,0 +1,1001 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+/*INICIO MENU PRINCIPAL*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+header>nav{
+    background-color: #0033A0;
+    width: 100%;
+    /* position: fixed; */
+    /* top: 0; */
+    /* z-index: 1; */
+}
+
+header>nav>#logo>a>img{
+    position: relative;
+    top: 2em;
+    width: 10%;
+
+}
+
+header>nav>.container>button{
+    position: relative;
+    bottom: 5.5em;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+header>nav>.container>button:hover{
+    background-color: #EAE9E8;
+}
+
+header>nav>.container>#contact-us{
+    background: #0173ac;
+    border-bottom-right-radius: 4px;
+    padding: 0.8em 1.6em;
+    color: white;
+    cursor: pointer;
+}
+
+header>nav>.container>#contact-us:hover{
+    background-color:#02527a;
+}
+
+header>nav>.container>#in-brazil{
+    border-bottom-left-radius: 4px;
+    padding: 0.8em 3em;
+    box-shadow: 0px 0px 3px rgba(128, 128, 128, 0.658);;
+}
+
+header>nav>.container>input{
+    position: relative;
+    left: 45em;
+    padding: 0.5em 5em 0.2em 1em;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+
+header>nav>.container>input:focus{
+    outline: none;
+}
+
+header>nav>#main-menu{
+    padding: 10px 120px;
+}
+
+header>nav>#main-menu>ul{
+    border-top: 1px solid white;
+}
+
+header>nav>#main-menu>ul>li{
+    display: inline-block;
+    margin: 2em 1.7em 0 0;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+header>nav>#main-menu>ul>#promo{
+    color: #FFAA00;
+}
+
+header>nav>#main-menu>ul>li:hover{
+    border-bottom: 1px solid #FFAA00;
+    padding: 0;
+}
+
+header>nav>#main-menu>ul>.menu-item2{
+    position: relative;
+    left: 3em;
+}
+
+header>nav>#menu-item>ul>li:hover{
+    background-color: #D1CBC5;
+}
+/*FIM MENU PRINCIPAL*/
+
+
+
+
+/*INICIO IMAGEM TRAINEE*/
+section>#trainee>a>img{
+    width: 100%;
+    height: 40em;
+    /* margin-top: 180px; */
+    filter: brightness(30%); /*ESCURECER IMAGEM*/
+}
+/*INICIO IMAGEM TRAINEE*/
+
+
+
+
+
+/* INICIO CARDS */
+.container-principal{
+    background-color: #0033A0;
+    padding: 0 8em;
+    position: relative;
+    bottom: 0.3em;
+}
+
+.container-principal>div{
+    display: flex;
+    position: relative;
+    bottom: 13em;
+}
+
+.container-principal>div>.size1{
+    position: relative;
+    top: 5em;
+}
+
+.container-principal>div>.size{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.658);
+    line-height: 25px;
+    margin: 0 auto;
+}
+
+.container-principal>div>.size>img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15em;
+    height: 10em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+
+.container-principal>div>.size>h3{
+    font-size: 25px;
+    width: 8.7em;
+    margin: 0 auto;
+    padding: 0.7em 0;
+    
+}
+
+.container-principal>div>.size>p{
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 3.5em;
+}
+
+.container-principal>div>.size>a{
+    margin: 1.5em;
+    text-decoration: none;
+    color: #007CC9;
+    font-size: 14px;
+}
+
+.container-principal>div>.size>.leia-mais{
+    position: absolute;
+    bottom: 0;
+}
+
+.container-principal>div>.size>.titulo{
+    position: relative;
+    float: left;
+    bottom: 26px;
+    padding: 0 1em;
+    border-top-right-radius: 15px;
+    font-size: 11px;
+    color: white;
+}
+
+.container-principal>div>#color1>.titulo{
+    background: #CA003D;
+}
+
+.container-principal>div>#color1>h3{
+    color: #CA003D;
+}
+
+.container-principal>div>#color2>.titulo{
+    background: #D64123;
+}
+
+.container-principal>div>#color2>h3{
+    color: #D64123;
+}
+
+.container-principal>div>#color3>.titulo{
+    background: #2E8025;
+}
+
+.container-principal>div>#color3>h3{
+    color: #2E8025;
+}
+
+.container-principal>div>#color4>.titulo{
+    background: #6F2277;
+}
+
+.container-principal>div>#color4>h3{
+    color: #6F2277;
+}
+
+
+/* INICIO NOTÍCIAS RECENTES */
+.container-principal>.recent-news{
+    margin: 17em 0 0 0;
+    color: white;
+}
+
+.container-principal>.recent-news>div{
+    width: 20em;
+}
+
+.container-principal>.recent-news>div>h2{
+    font-size: 34px;
+    
+    line-height: 40px;
+}
+
+.container-principal>.recent-news>div>a{
+    position: relative;
+    top: 6em;
+    padding: 0.8em 1.8em;
+    border: 1px solid white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-principal>.recent-news>div>a:hover{
+    background-color: white;
+    color: #0033A0;
+}
+
+.container-principal>.recent-news>div>p{
+    position: relative;
+    width: 50%;
+    padding: 1.5em 1em 3em 0;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+}
+/* FIM NOTÍCIAS RECENTES */
+/* FIM CARDS */
+
+
+
+
+/* INICIO MARCAS */
+#brands>div{
+    margin-top: 4em;
+    padding: 0 14em;
+    text-align: center;
+    color: #0033A0;
+}
+
+#brands>#recent-brands{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 8em;
+}
+
+#brands>#recent-brands>div{
+    background-color: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(128, 128, 128, 0.815);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.658);
+    margin: 0 0.5em 0 0;
+}
+
+
+#brands>#recent-brands>.first{
+    position: relative;
+    top: 4em;
+}
+
+#brands>#recent-brands>div>img{
+    position: relative;
+    width: 6.2em;
+    border-radius: 60px;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#brands>#recent-brands>div>img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#brands>#recent-brands>div>.cheerios{
+    box-shadow: 3px 3px 8px rgba(128, 128, 128, 0.993);
+}
+
+#brands>#botao-marcas>a{
+    color: #0033A0;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0.8em;
+    border: 1px solid #0033A0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.993);
+}
+
+#brands>#botao-marcas>a:hover{
+    background: #0033A0;
+    color: white;
+}
+/* FIM MARCAS */
+
+
+
+
+/* INICIO NOTÍCIAS NESVALE */
+.news-nestle{
+    background: url(/nesvale/img/mapa-mundial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 4em 0;
+    margin: 4em 0;
+}
+
+.news-nestle>.nestle{
+    display: inline-block;
+    padding: 0 8em;
+    color: white;
+    font-weight: normal;
+}
+
+.news-nestle>.nestle>h2{
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.news-nestle>.nestle>p{
+    width: 250px;
+    margin: 20px 0 30px 0;
+    font-weight: bold;
+    border-bottom: 1px dotted;
+    line-height: 25px;
+}
+
+.news-nestle>.nestle>a{
+    color: #427CBF;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 8px 32px;
+    background: white;
+}
+
+.news-nestle>.nestle>a:hover{
+    background: #CCE5F1;
+}
+
+.news-nestle>.contact{
+    margin-left: 200px;
+}
+
+.news-nestle>.contact>#fale-conosco{
+    background: #007CBA;
+    color: white;
+}
+
+.news-nestle>.contact>#fale-conosco:hover{
+    background-color: #006A9E;
+}
+/* FIM NOTÍCIAS NESVALE */
+
+
+
+
+/* INICIO RODAPÉ */
+footer>div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 120px;
+    background: #0033A0;
+    
+}
+
+footer>div>.text-nesvale{
+    margin-top: 4em;
+    padding-bottom: 5em;
+    color: white;
+}
+
+footer>div>.text-nesvale>h2{
+    font-size: 36px;
+}
+
+footer>div>.text-nesvale>p{
+    width: 170px;
+    margin: 1em 0;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+footer>div>nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 6em 0 0 3em;
+    padding-left: 5em;
+}
+
+footer>div>nav>div>.minr{
+    padding: 2em 1em;
+    margin: 0 2em 1em 0;
+}
+
+footer>div>nav>div>.minr>li>a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+footer>div>nav>div>.minr>li>a:hover{
+    border-bottom: 2px solid #FFAA00;
+}
+
+
+footer>div>nav>div>ul>.size{
+    font-size: 16px;
+    color: white;
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+
+footer>div>nav>div>ul>li{
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+
+footer>div>.redes-sociais{
+    margin: 0 auto;
+}
+
+footer>div>.redes-sociais>h2{
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer>div>.redes-sociais>ul>li{
+    display: inline-block;
+    position: relative;
+    left: 3em;
+    margin-top: 20px;
+}
+
+footer>div>#reserved{
+    border-top: 1px solid white;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+footer>div>#reserved>ul>li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 2em 0;
+    color: white;
+    font-size: 14px;
+    
+}
+
+footer>div>#reserved>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+footer>div>#reserved>ul>li>a:hover{
+    border-bottom: 2px solid #FFAA00
+}
+/* FIM RODAPÉ */
+
+
+
+
+
+/* INICIO MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 480px){
+    header>nav{
+        text-align: center;
+    }
+
+    header>nav>#logo>a>img{
+        width: 42%;
+        position: relative;
+        top: 60px;
+    }
+
+    header>nav>.container{
+        width: 90%;
+    }
+
+    header>nav>.container>button{
+        padding: 50px;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    header>nav>.container>#contact-us{
+        font-size: 16px;
+        padding: 13px;
+    }
+
+    header>nav>.container>#in-brazil{
+        padding: 13px 16px;
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    header>nav>.container>input{
+        position: relative;
+        left: -15px;
+        top: 30px;
+        border-radius: 0;
+    }
+
+    header>nav>#main-menu{
+        margin-top: 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+        border-top: 1px solid white;
+        padding: 0px 8px;
+    }
+
+    header>nav>#main-menu>ul{
+        border: none;
+        position: relative;
+        bottom: 20px;
+    }
+
+    header>nav>#main-menu>ul>li{
+        margin-left: 2px;
+    }
+
+    header>nav>#main-menu>ul>.menu-item2{
+        margin-right: 120px;
+    }
+
+    section>#trainee>a>img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .container-principal>div{
+        display: inline-block;
+        margin-left: -110px;
+        margin-top: 130px;
+        
+    }
+
+    .container-principal>div>.size{
+        margin: 10px 0;
+        margin-bottom: 90px;
+        width: 280px;
+    }
+
+    .container-principal>div>.size>img{
+        width: 100%;
+    }
+
+    .container-principal>div>.size>.titulo{
+        position: relative;
+        bottom: 26px;
+    }
+
+    .container-principal>div>.size>h3{
+        font-size: 20px;
+        position: relative;
+        left: 50px;
+        margin: 0;
+    }
+
+    .container-principal>div>.size>.leia-mais{
+        display: none;
+    }
+
+    .container-principal>.recent-news{
+        margin: 0 auto;
+        position: relative;
+        right: 130px;
+    }
+
+    .container-principal>.recent-news>div{
+        text-align: center;
+    }
+
+    .container-principal>.recent-news>div>h2{
+        font-size: 30px;
+    }
+
+    .container-principal>.recent-news>div>a{
+        position: absolute;
+        top: 100%;
+        right: 90px;
+        margin-top: 30px;
+    }
+
+    .container-principal>.recent-news>div>span{
+        position: relative;
+        top: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .container-principal>.recent-news>div>p{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    #brands{
+        margin: 0 auto;
+    }
+
+    #brands>div{
+        margin: 0 auto;
+        position: relative;
+        right: 130px;
+    }
+
+    #brands>div>h2{
+        font-size: 20px;
+        width: 150px;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    #brands>#recent-brands>div{
+        margin: 0 0 80px 10px;
+    }
+
+    #brands>#botao-marcas>a{
+        font-size: 14px;
+        display: inline-block;
+        width: 160px;
+        position: relative;
+        bottom: 150px;
+    }
+    .news-nestle{
+        position: relative;
+        bottom: 70px;
+        margin: 0;
+    }
+
+    .news-nestle>.nestle{
+        margin: 0 auto;
+        margin: 10px 0 40px 0;
+        position: relative;
+        right: 90px;
+    }
+
+    footer>div>.text-nesvale{
+        margin: 0;
+        margin-top: 30px;
+        position: relative;
+        right: 30px;
+    }
+
+    footer>div>nav{
+        margin: 0;
+        position: relative;
+        right: 100px;
+    }
+
+    footer>div>nav>div>.minr{
+        display: inline;
+    }
+
+    footer>div>.redes-sociais{
+        position: relative;
+        right: 60px;
+        margin-top: 30px;
+    }
+
+    footer>div>.redes-sociais>h2{
+        width: 200px;
+        font-size: 16px;
+    }
+
+    footer>div>.redes-sociais>ul{
+        position: relative;
+        right: 20px;
+    }
+
+    footer>div>#reserved{
+        border-top: none;
+        position: relative;
+        right: 30px;
+    }
+
+    footer>div>#reserved>ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 165px;
+    }
+
+    footer>div>#reserved>ul>li{
+        border-bottom: 2px solid white;
+    }
+
+    footer>div>#reserved>ul>li:nth-child(2n){
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px){
+    header>nav{
+        text-align: center;
+    }
+
+    header>nav>#logo>a>img{
+        width: 50%;
+        position: relative;
+        top: 60px;
+    }
+
+    header>nav>.container{
+        width: 90%;
+    }
+
+    header>nav>.container>button{
+        /* padding: 50px; */
+        margin: 0 auto;
+        width: 50%;
+        position: relative;
+        top: -140px;
+        /* margin-top: 10px; */
+    }
+
+    header>nav>.container>#contact-us{
+        font-size: 16px;
+        /* padding: 13px; */
+    }
+
+    header>nav>.container>#in-brazil{
+        padding: 13px 16px;
+        font-size: 16px;
+        /* padding: 4px; */
+    }
+
+    header>nav>.container>input{
+        position: relative;
+        left: 2px;
+        top: 30px;
+        border-radius: 0;
+        padding: 5px 200px 0 5px;
+    }
+
+    header>nav>#main-menu{
+        margin-top: 50px;
+        border-top: 1px solid white;
+        padding: 0px 10px;
+    }
+
+    header>nav>#main-menu>ul{
+        border: none;
+        position: relative;
+        bottom: 20px;
+    }
+
+    header>nav>#main-menu>ul>.menu-item2{
+        margin-right: 120px;
+    }
+
+    section>#trainee>a>img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .container-principal>div{
+        display: inline-block;
+        margin: 130px -45px;
+    }
+
+    .container-principal>div>.size{
+        margin: 10px 0 90px 0;
+        width: 320px;
+    }
+
+    .container-principal>div>.size>img{
+        width: 100%;
+    }
+
+    .container-principal>div>.size>.titulo{
+        /* position: relative;
+        bottom: 26px; */
+    }
+
+    .container-principal>div>.size>h3{
+        font-size: 26px;
+        position: relative;
+        left: 50px;
+        margin: 0;
+    }
+
+    .container-principal>div>.size>p{
+        font-size: 20px;
+    }
+
+    .container-principal>div>.size>.leia-mais{
+        display: none;
+    }
+
+    .container-principal>.recent-news{
+        margin: 0 auto;
+        position: relative;
+        /* top: -300px; */
+        right: 50px;
+    }
+
+    .container-principal>.recent-news>div{
+        text-align: center;
+    }
+
+    .container-principal>.recent-news>div>h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .container-principal>.recent-news>div>a{
+        position: absolute;
+        top: 100%;
+        right: 80px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .container-principal>.recent-news>div>span{
+        position: relative;
+        top: 22px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .container-principal>.recent-news>div>p{
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #brands{
+        margin: 0 auto;
+    }
+
+    #brands>div{
+        margin: 0 auto;
+        position: relative;
+        right: 100px;
+    }
+
+    #brands>div>h2{
+        font-size: 32px;
+        width: 250px;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    #brands>#recent-brands>div{
+        margin: 0 0 80px 50px;
+    }
+
+    #brands>#recent-brands>div>img{
+        width: 150px;
+    }
+
+    #brands>#botao-marcas>a{
+        font-size: 20px;
+        display: inline-block;
+        width: 210px;
+        position: relative;
+        bottom: 150px;
+    }
+    .news-nestle{
+        position: relative;
+        bottom: 70px;
+        margin: 0;
+    }
+
+    .news-nestle>.nestle{
+        margin: 0 auto;
+        margin: 10px 0 40px 0;
+        position: relative;
+        right: 90px;
+    }
+
+    footer>div>.text-nesvale{
+        margin: 0;
+        margin-top: 30px;
+        position: relative;
+        right: 30px;
+    }
+
+    footer>div>nav{
+        margin: 0;
+        position: relative;
+        right: 100px;
+    }
+
+    footer>div>nav>div>.minr{
+        display: inline;
+    }
+
+    footer>div>.redes-sociais{
+        position: relative;
+        right: 60px;
+        margin-top: 30px;
+    }
+
+    footer>div>.redes-sociais>h2{
+        width: 300px;
+        font-size: 24px;
+    }
+
+    footer>div>.redes-sociais>ul{
+        position: relative;
+        right: 20px;
+    }
+
+    footer>div>#reserved{
+        border-top: none;
+        position: relative;
+        right: 30px;
+    }
+
+    footer>div>#reserved>ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 165px;
+    }
+
+    footer>div>#reserved>ul>li{
+        border-bottom: 2px solid white;
+    }
+
+    footer>div>#reserved>ul>li:nth-child(2n){
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+
+}
