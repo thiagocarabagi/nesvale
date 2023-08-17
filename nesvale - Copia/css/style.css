@@ -342,7 +342,7 @@ section>#trainee>a>img{
 
 /* INICIO NOTÍCIAS NESVALE */
 .news-nesvale{
-    background: url(../img/mapa-mundial.jpg);
+    background: url(/img/mapa-mundial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
