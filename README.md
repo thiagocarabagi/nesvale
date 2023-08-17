@@ -1,2 +1,2 @@
 # NesVale
- Nós revelamos o poder do alimento para melhorar a qualidade de vida de todos hoje e para próximas gerações.
+ Projeto utilizando HTML5 e CSS3, ainda em andamento. 
